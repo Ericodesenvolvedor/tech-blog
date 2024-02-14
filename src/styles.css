@@ -103,6 +103,7 @@ main ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(38.4rem, 1fr));
   gap: 3.2rem;
+  justify-content: center;
 
   list-style: none;
 }
@@ -266,5 +267,9 @@ footer form {
 
   main h2 {
     font-size: 2.4rem;
+  }
+
+  main ul {
+    grid-template-columns: 32.7rem;
   }
 }
